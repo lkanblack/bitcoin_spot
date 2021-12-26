@@ -2,6 +2,12 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+.show {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
 body {
   background-color: #14171C;
 }
@@ -188,6 +194,68 @@ body {
   font-size: 12px;
   line-height: 16px;
   font-weight: 300;
+}
+
+.hero-main .second-block form .phone .select {
+  position: absolute;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  top: 17.5px;
+  left: 12px;
+}
+
+.hero-main .second-block form .phone .current {
+  margin-right: 4px;
+}
+
+.hero-main .second-block form .phone .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.hero-main .second-block form .phone .down embed {
+  width: 12px;
+  height: 12px;
+}
+
+.hero-main .second-block form .phone .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #1F2229;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12px;
+  top: 20px;
+  left: -12px;
+}
+
+.hero-main .second-block form .phone .dropdown a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.hero-main .second-block form .phone input {
+  padding-left: 100px;
 }
 
 .hero-main .second-block form button {
@@ -794,6 +862,9 @@ body {
     line-height: 20px;
     font-weight: 400;
     margin: 0;
+  }
+  .customers-header {
+    margin-bottom: 24px;
   }
   .customers-body {
     display: none;

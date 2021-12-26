@@ -19,3 +19,11 @@ const swiper = new Swiper('.swiper', {
   });
   
 
+// COUNTRY SELECT
+
+let btn = document.querySelector('.down');
+let dropdown = document.querySelector('.dropdown');
+
+btn.addEventListener('click', function(){
+    dropdown.classList.toggle('show');
+});
